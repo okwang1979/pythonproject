@@ -22,3 +22,10 @@ print("this is num:"+str(num))
 selfList = ["one",2,"three"]
 print(selfList[1])
 print(selfList[-1])
+# 列表相关操作
+selfList.append("four") # 末尾插入
+print(selfList)
+selfList.insert(4,"five") # 插入
+print(selfList)
+del selfList[-1] # 删除
+print(selfList)
